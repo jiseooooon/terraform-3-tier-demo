@@ -1,9 +1,9 @@
 variable "region" {
-  default = "ap-northeast-2"
-  description = "Amazon Region"
+  default = "ap-sutheast-2"
+  description = "Amazon Sydney Region"
 }
 variable "resource_prefix" {
-  default = "DevOS"
+  default = "JISEON-DevOS-Demo"
   description = "resource name prefix"
   type = string
 }
@@ -29,7 +29,7 @@ variable "web_instance_type" {
 }
 
 variable "bastion_key_pair_name" {
-  default = "devos-seoul-keypair"
+  default = "devos-demo-sydney-instance-key"
   description = "EC2 Instance Key Pair Name"
 }
 
